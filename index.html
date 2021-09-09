@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Pizzeria</title>
+<script src="main.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<ul class="menu">
+<li class="links"><a href="#ShowMenu">Show Menu</a></li>
+<li class="links"><a href="#Suggesttopping">Suggest topping</a></li>
+</body>
+</html>
+
+<section id="ShowMenu">
+<h1>Menu</h1>
+<br>
+<img id="pizza" src="https://d2np4vr8r37sds.cloudfront.net/img/article/1474-bcfficdryu-1487822431.jpg">
+<span>
+<button onclick="Menu()" id="button_menu">SHOW MENU</button>
+<div id="display_addedmenu"></div>
+<div id="moremenu"></div>
+</span>
+<div id="display_menu"></div>
+</section>
+
+<section id="Suggesttopping">
+<h1>Suggest Topping</h1>
+<img id="cheesepiza" src="https://cdn.apartmenttherapy.info/image/fetch/f_auto,q_auto:eco,c_fill,g_auto,w_1500,ar_3:2/https%3A%2F%2Fstorage.googleapis.com%2Fgen-atmedia%2F3%2F2012%2F10%2F49857603ba4434ed65523956d5644f63a84d531f.jpeg">
+<input type="text" placeholder="Type here to add toppings" id="Suggest_for_the_Topping_1">
+<button onclick="Suggestion()" id="suggest">ADD SUGGESTION</button>
+<button id="add_toppings" onclick="add_item()">Show Pizza</button>
+</section>

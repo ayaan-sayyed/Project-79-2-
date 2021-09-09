@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+    background-color:cyan;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+#H {
+text-align: left;
+color: black;
+}
+
+#button_menu {
+background-color: yellow;
+color: black;
+font-weight: bold;
+font-size: 20px;
+font-style: italic;
+font-size: 20px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+margin-bottom: 90px;
+}
+
+
+#suggest {
+background-color: greenyellow;
+}
+
+.links {
+
+    color: orange;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: comic, sans-serif;
+    font-size: 25px;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+    text-shadow: 2px 2px gainsboro;
+
+}
+
+.links:hover {
+
+    background-color:orange;
+}
+
+#cheesepiza{
+height: 600px;
+}
+
+
+
